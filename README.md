@@ -58,6 +58,7 @@ These libraries are currently bundled:
 ## Deploying to AWS as a layer
 
 Run the following command to deploy the compiled result as a layer in your AWS account.
+The precompiled layer files are in the binaries folder.
 
 ```
 make deploy DEPLOYMENT_BUCKET=<YOUR BUCKET NAME>
